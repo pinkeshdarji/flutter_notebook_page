@@ -13,7 +13,7 @@ A Flutter package allows you to easily integrate Notebook Page like Widget.
 
 ```dart
 dependencies:
-    flutter_notebook_page: 0.0.1
+    flutter_notebook_page: 0.1.0
 ```
 
 2.  Import the package
