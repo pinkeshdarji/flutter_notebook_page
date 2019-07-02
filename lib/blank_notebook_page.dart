@@ -9,6 +9,7 @@ class BlankNotebookPage extends CustomPainter {
         RRect.fromLTRBR(0, 0, size.width, size.height, Radius.circular(8.0));
     canvas.drawRRect(rrectRed, paintgrey);
 
+
     //Step 2
     final paintWhite = Paint()..color = Colors.white;
     var rrectWhite =
