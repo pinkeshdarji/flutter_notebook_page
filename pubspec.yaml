@@ -1,8 +1,9 @@
 name: flutter_notebook_page
-description: A new Flutter package.
+description: A Flutter package allows you to easily integrate Notebook Page like Widget.
 version: 0.0.1
-author:
-homepage:
+author: Pinkesh Darji <pinkesh.earth@gmail.com>
+homepage: https://github.com/pinkeshdarji/flutter_notebook_page
+issue_tracker : https://github.com/pinkeshdarji/flutter_notebook_page/issues
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
