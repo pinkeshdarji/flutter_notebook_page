@@ -3,6 +3,7 @@
 A Flutter package allows you to easily integrate Notebook Page like Widget.
 
 ## Preview
+<img src="./preview/preview.gif" alt="Screenshot"/>
 
 ## Installing
 
