@@ -22,10 +22,40 @@ import 'package:flutter_notebook_page/flutter_notebook_page.dart';
 
 3.  Adding NotebookPageWidget
 
-    CreditCardWidget(),
+```dart
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: NotebookPage(),
+      ),
+    );
+  }
+}
+```
 
-## How to use
-Check out the **example** app in the [example](example) directory or the 'Example' tab on pub.dartlang.org for a more complete example.
+*With optional parameters*
+
+```dart
+class _MyHomePageState extends State<MyHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: NotebookPage(
+          item1: '8 characters',
+          item2: '1 Special character',
+          item3: '1 Upper case',
+          height: 150,
+          width: 300,
+          textStyle: TextStyle(color: Colors.deepPurple, fontSize: 29),
+        ),
+      ),
+    );
+  }
+}
+```
 
 ## Getting Started
 
